@@ -17,11 +17,11 @@
 
 // Izlude
 //============================================================
-izlude,197,205,1	duplicate(Sailor_izlude)	Sailor#izlude	4W_SAILOR
-izlude_a,197,205,1	duplicate(Sailor_izlude)	Sailor#izlude_a	4W_SAILOR
-izlude_b,197,205,1	duplicate(Sailor_izlude)	Sailor#izlude_b	4W_SAILOR
-izlude_c,197,205,1	duplicate(Sailor_izlude)	Sailor#izlude_c	4W_SAILOR
-izlude_d,197,205,1	duplicate(Sailor_izlude)	Sailor#izlude_d	4W_SAILOR
+//izlude,197,205,1	duplicate(Sailor_izlude)	Sailor#izlude	4W_SAILOR
+//izlude_a,197,205,1	duplicate(Sailor_izlude)	Sailor#izlude_a	4W_SAILOR
+//izlude_b,197,205,1	duplicate(Sailor_izlude)	Sailor#izlude_b	4W_SAILOR
+//izlude_c,197,205,1	duplicate(Sailor_izlude)	Sailor#izlude_c	4W_SAILOR
+//izlude_d,197,205,1	duplicate(Sailor_izlude)	Sailor#izlude_d	4W_SAILOR
 
 izlude,71,92,2	duplicate(Bonne_izlude)	Bonne#izlude	4_F_01
 izlude_a,71,92,2	duplicate(Bonne_izlude)	Bonne#izlude_a	4_F_01
