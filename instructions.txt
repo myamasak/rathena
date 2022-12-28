@@ -1,0 +1,34 @@
+./configure && make clean && make server
+
+sudo chmod a+x login-server && chmod a+x char-server && chmod a+x map-server && chmod a+x web-server
+
+
+./configure --enable-packetver=20200401
+make clean
+make server -j 16
+
+CREATE DATABASE ragnarok;
+CREATE DATABASE logs;
+CREATE USER 'ragnarok'@'localhost' IDENTIFIED BY 'ragnarok';
+
+GRANT SELECT,INSERT,UPDATE,DELETE ON ragnarok.* TO 'ragnarok'@'localhost';
+GRANT SELECT,INSERT,UPDATE,DELETE ON logs.* TO 'ragnarok'@'localhost';
+
+
+
+// See firewall status
+sudo ufw status verbose
+
+//How do I open tcp port # 22?
+sudo ufw allow 22/tcp
+
+
+How do I open tcp port # 80 and 443?
+The service specific syntax is as follows to open http and https service ports:
+sudo ufw allow http
+sudo ufw allow https
+
+OR
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
+sudo ufw allow 53
