@@ -1,0 +1,423 @@
+Para você ser m GM certamente deve ter dominio sobre varios comandos, em muitos servers é dividido o grupo de comandos pelo nivel de GM ...
+
+1° administradores nivel 99 (todos os comandos)
+2°sub adm nivel 80 (geralmente) (tem quase tudo exeto @item e outros de criação)
+3° EM (event manager) pois um GM de eventos como eu precisa de muitos comandos, até para mudar o cenario
+
+bem sem mais delongas vamos aos comandos em geral...
+
+bem um gm ingame pode pedir ajuda se tiver duvidas sobre os comandos que não saum poucos /aiai
+o comando para pedir ajuda é @h /@help = Exibe comandos de ajuda in-game
+
+2 Menssagens:
+Algo muito importante para o M saber pois sua função e ajudar os jogadores e torna o jogo atrativo usando de sua criatividade ^^
+bem mas como ele faria isso sem saber como se comunicar né ^^
+então aqui estaum os comando de comunicação:
+/b = Exibe mensagem superior com o nome do GM (amarelo)
+/nb = Exibe mensagem superior sem o nome do GM (amarelo)
+@kamib = Exibe mensagem superior sem o nome do GM (azul)
+/lb = Exibe mensagem superior com o nome do GM (amarelo)
+SOMENTE EM SEU MAPA
+/nlb = Exibe mensagem superior sem o nome do GM (amarelo)
+SOMENTE EM SEU MAPA
+
+3 Informação:
+Bem o GM e como um deus éle deve ser oniciente (saber tudo) onipotente (poder tudo) e oni presente (esta em todos os lugares)
+
+@who [match_text] = Lista quem está online no seu server e suas localizações.
+@who2 [match_text] = Lista quem está online no seu server e suas profissões.
+@who3 [match_text] = Lista quem está online no seu server e suas partys / guildas.
+@whomap [map] = Exibe lista de quem está online em um mapa específico.
+@whomap2 [map] = Exibe lista de quem está online e suas profissões em um mapa específico.
+@whomap3 [map] = Exibe lista de quem está online e suas partys/guildas em um mapa específico.
+@where [char name] = Mostra a você a localização de um char específico.
+@charstatsall = Exibe os status de todos os chars.
+@charitemlist = Exibe os itens do personagem.
+@charstoragelist = Exibe os itens no armazém do personagem.
+@charcartlist = Exibe os itens no cart do personagem.
+@ignorelist = Exibe sua lista de ignorados.
+@mapinfo [<0-3> [map]] = Exibe informação sobre um mapa.
+(+ = informações gerais
+0 = ?
+1 = players
+2 = npcs
+3 = Lojas/Chats).
+
+@time
+@date
+@server_date = Exibe data/hora do servidor.
+@serverdate
+@server_time
+@servertime
+
+@guildspy = Você receberá todas as mensagens de uma guilda específica.
+
+@partyspy = Você receberá todas as mensagens de uma party
+
+4- comandos de estatus
+
+existem alguns comandos (imagino q esse seja liberado ao jogo e o caso do @die alguns são liberados em alguns jogos ) vamos a eles:
+
+@die = Suicídio.
+@alive = Ressurreição.
+@heal [ ] = Cura a quantidade desejada de HP e SP.
+
+Locomoção:
+O gm tem que ter um busão potente ^^
+aiuhaiuha
+o comando @warp foi liberado a todos os jogadores mais o gm tem algumas cositias a mais :
+/hide /@hide = GM Hide. Invisibilidade perfeita. Redigite @hide para
+ficar visível.
+@save = Salva no local.
+@load/@return = Teleporta você para o ponto salvo.
+
+@speed <1-1000> = Muda a velocidade de movimento (sendo 1 mais rápido e 1000 mais devagar). Default = 150
+
+@memo [memo_position] = Salva/muda um ponto salvo.
+(sem número especificado = mostra seus pontos salvos).
+/mm
+/mapmove = Teleporta você para a posição selecionada.
+@warp
+Exemplo: @warp morroc 150 160
+
+@jump [x [y]] = Teleporta você aleatoriamente pelo mapa.
+
+/shift
+/@jumpto = Teleporta você até o personagem selecionado.
+/@warpto Exemplo: @goto Fulano
+/@goto
+
+@go = Teleporta você para a cidade selecionada.
+-1 = Ponto salvo 0
+-2 = Ponto salvo 1
+-3 = Ponto salvo 2
+0 = Prontera
+1 = Morroc
+2 = Geffen
+3 = Payon
+4 = Alberta
+5 = Izlude
+6 = Al de Baran
+7 = Lutie
+8 = Comodo
+9 = Yuno
+10 = Amatsu
+11 = Gon Ryun
+12 = Umbala
+13 = Niflheim
+14 = Lou Yang
+15 = Start Point
+16 = Prison
+
+(sei nem por q coloquei isso aqui acho q todos os jogadores sabem ¬¬)
+
+Dinheiro (motivo de brigas entre gms de server desorganizados q ja participei (sem citar nomes)
+
+@zeny = esse comando passa ao jogador que o gm desejar uma quantia em zenys
+
+outros comando que davaum muita briga é a autoridade que o GM tem sobre qualquer perssonagem com os
+Comandos de estatus:
+@str,@agi,@vit,@int,@dex,@luk = Adiciona o número de pontos desejados ao status especificado.
+@stpoint = Dá o número desejado de pontos de status.
+@skpoint = Dá o número desejado se pontos de skill.
+/resetstatus = Reseta seus status.
+/resetskill = Reseta suas skills.
+@allstats [value] = Adiciona pontos em status (sem valor especificado, eleva ao máximo).
+@job/@jobchange = Muda sua Profissão de acordo com a ID selecionada.
+0 = Novice (Aprendiz)
+1 = Swordman (Espadachim)
+2 = Mage (Mago)
+3 = Archer (Arqueiro)
+4 = Acolyte (Noviço)
+5 = Merchant (Mercador)
+6 = Thief (Gatuno)
+7 = Knight (Cavaleiro)
+8 = Priest (Sacerdote)
+9 = Wizard (Bruxo)
+10 = Blacksmith (Ferreiro)
+11 = Hunter (Caçador)
+12 = Assassin (Assassino)
+13 = Knight 2 ( ? )
+14 = Crusader (Templário)
+15 = Monk (Monge)
+16 = Sage (Sábio)
+17 = Rogue (Arruaceiro)
+18 = Alchemist (Alquimista)
+19 = Bard (Bardo)
+20 = Dancer (Odalisca)
+21 = Crusader (Templário)
+22 = Formal ( ? )
+23 = Super Novice (Super Aprendiz)
+
+** REBORN **
+
+24 = Novice High (Aprendiz Avançado)
+25 = Swordsman High (Espadachin Avançado)
+26 = Mage High (Mago Avançado)
+27 = Archer High (Arqueiro Avançado)
+28 = Acolyte High (Noviço Avançado)
+29 = Merchant High (Mercador Avançado)
+30 = Thief High (Gatuno Avançado
+31 = Lord Knight (Cavaleiro Lorde)
+32 = High Priest (Sacerdote Avançado)
+33 = High Wizard (Bruxo Avançado)
+34 = Whitesmith (Ferreiro Avançado)
+35 = Sniper (Caçador Avançado)
+36 = Assassin Cross (Assassino Cruz)
+37 = Peco Knight (Cavaleiro do Peco)
+38 = Paladin (Paladino)
+39 = Champion (Monge Avançado)
+40 = Professor (Professor)
+41 = Stalker (Arruaceiro Avançado)
+42 = Creator (Alquimista Avançado)
+43 = Clown (Bardo Avançado)
+44 = Gypsy (Dançarina Avançada)
+45 = Paladin 2 ( ? )
+
+@lvup = Aumenta seu nível de base de acordo com o número escolhido. (99/255)
+@joblvup = Aumenta seu nível de classe de acordo com o número escolhido. (50/70)
+
+@allskill = Libera ao GM todas as skills de todas as classes.
+
+@questskill = Libera a Quest Skill especificada.
+@lostskill = Retira a Quest Skill especificada.
+
+Aprendiz
+142 = Primeiros Socorros
+143 = Fingir de Morto
+Arqueiro
+147 = Fabricar Flechas
+148 = Disparo Violento
+Espadachin
+144 = Recuperação de HP em movimento
+145 = Attack Weak Point
+146 = Auto Berserk
+Gatuno
+149 = Arremessar Areia
+150 = Recuar
+151 = Procurar Pedra
+152 = Arremessar Pedra
+Mercador
+153 = Cart Revolution
+154 = Change Cart
+155 = Crazy Uproar
+Noviço
+156 = Luz Divina
+Mago
+157 = Energy Coat
+
+
+
+bem alguns comando necessarios que creio eu seram usados pelo povo contratado no database pelo Siberian sama
+são os comandos de controle jo jogo:(atenção tem q saber disso se mandou a inscrição... agora adivinhe qual dos comndos abaixo um Database tem ultilidade ?... para comentar vio)
+@disguise = Muda sua aparência para monstro ou NPC.
+Caso use ID do NPC 104,
+A velocidade do player será afetada pelo efeito, seja MUITO
+cuidadoso com este comando. Ele pode criar Client Crashes e
+pode facilmente causar LAG.
+@undisguise = Restaura aparência.
+
+@model = Muda a aparência do seu personagem.
+
+Cabelo ID Cor do Cabelo Cor da Roupa
+0 0 = Default 0 = Default
+1 1 = Loiro 1 = Vermelha
+2 2 = Roxo 2 = Verde
+3 3 = Castanho 3 = Branca
+4 4 = Verde 4 = Marrom
+5 5 = Azul
+6 6 = Branco
+7 7 = Preto
+8 8 = Ruivo
+
+
+@option = Muda os parâmetros do seu personagem.
+Exemplo: @option 0 0 16 lhe dará um falcão
+
+01 = Petrificado 01 = Envenenado 01 = Chama Reveladora
+02 = Congelado 02 = Amaldiçoado 02 = Esconderijo
+03 = Stun 04 = Silence 04 = Cloak
+04 = Sono 08 = ( ? ) 08 = Level 1 Cart
+06 = Cegueira 06 = Cegueira 16 = Falcão
+32 = Peco Peco
+64 = GM Perfect Hide
+128 = Level 2 Cart
+256 = Level 3 Cart
+512 = Level 4 Cart
+1024 = Level 5 Cart
+2048 = Cabeça de Orc
+4096 = Sprites Casamento
+8192 = Revelação
+
+
+@dye = Muda somente a cor da roupa do personagem.
+@hairstyle/@hstyle = Muda somente o estilo do cabelo do personagem.
+@haircolor/@hcolor = Muda somente a cor do cabelo do personagem.
+@effect [flag] = Dá efeito ao personagem
+
+
+@spiritball = Dá ao personagem Spirit Spheres"
+(se o número escolhido for maior que 1000,
+pode desestabilizar ou crashar o server).
+OBS: Apenas para monges/e evolução
+
+Bem os outros comandos as vezes são liberados para perssonagens vips
+
+@storage = Abre armazém.
+@gstorage = Abre armazém da guilda.
+@item [quantidade] = Dá ao GM o item especificado.
+@itemreset = Remove todos os seus itens.
+@itemcheck = Checa seus itens
+@idsearch = Busca todos os itens que contém a digitada.
+@refine <+/- amount> = Refina equipamentos de acordo com a posição
+especificada.
+Tabela de Posições
+0 - Todos
+1 - Cabeça - Baixo
+2 - Mão Direita
+4 - Capa
+8 - Accessório Esquerdo
+16 - Armadura
+32 - Mão Esquerda
+64 - Pés
+128 - Acessório Direito
+256 - Caçeça - Topo
+512 - Cabeça - Meio
+
+@produce <# of very's> = Produz arma elemental.
+Elementos Fragmento Estelar
+0 = Nenhum 0 = Nenhum
+1 = Gelo 1 = Muito Forte
+2 = Terra 2 = Muito Muito Forte
+3 = Fogo 3 = Muito Muito Muito Forte
+Exemplo: @produce 116 3 3 - Produz uma Very Very Very Strong Fire Claymore
+
+@repairall = Repara todos os itens quebrados do seu inventário.
+
+Os dois que ponharei (essa palavra existe ??) servem para ser usados em eventos
+a grande maioria de eventos tem esses comandos naum importa o servidor é a escolha do pulblico ^^
+
+@monster = Sumona o monstro especificado.
+@monster [
+"desired monster name" [ []]]
+= Sumona o monstro especificado, na quantidade desejada, com
+nome modificado na localização especificada.
+Exemplo: @monster Baphomet 20 Vívian 130 150 - Sumona 30 Baphos de nome Vívian.
+
+@killmonster [map] = Mata todos os montros do mapa especificado (com item drop).
+@killmonster2 = Mata todos os montros do seu mapa (sem item drop).
+
+Comandos de PvP ^^ (esses todo mundo ama *-*)
+
+@pvpon / @pvpoff = Liga/Desliga o MODO PVP no mapa.
+@gvgon / @gvgoff = Liga/Desliga o MODO GVG no mapa.
+
+@agitstart = Dá início à Guerra do Emperium.
+@agitend = Dá fim à Guerra do emperium.
+
+esses a seguir não são taum ultilizados (apezar de o nome do topico ser comandos para gm acabei tomando a liberdade de por todos os comandos do jogo)
+
+Comandios para os pet's:
+
+@hatch = Choca um ovo de pet do seu inventário.
+@makeegg = Criz um ovo de pet de acordo com o ID especificado.
+@petfriendly <#> = Seta a fidelidade do pet de acordo com o número especificado.
+(0 = Min, 1000 = Max)
+@pethungry <#> = Seta a fome do pet de acordo com o número especificado.
+(0 = Min, 100 = Max)
+@petrename = Renomeia um pet.
+
+Os comandos a seguir eu sei q são exclusivos para GM nunca vi casos de char poderem fazer isso ^^
+
+@kill = Mata um personagem específico.
+@revive = Revive um personagem específico.
+@jail = Manda um personagem para a cadeia.
+@unjail/@discharge = Retira um personagem da cadeia.
+@recall = Teleporta um personagem até você.
+@recallall = Teleporta todos os personagens online até você.
+
+
+@charwarp = Teleporta um personagem para um mapa
+específico.
+@charstats = Mostra os status de um personagem.
+@charignorelist = Mostra a ignorelist de um personagem.
+@inall = Libera mensagens particulares para o personagem.
+
+@exall = Bloqueia mensagens particulares para o personagem.
+@charoption = Faz o mesmo que o comando @option
+para um personagem específico.
+@charmountpeco = Dá/Remove Peco de um personagem específico.
+(Classe é necessária, mas não skill)
+@charpetrename = Libera a renomeação do pet de um personagem.
+@charsave = Muda o ponto de respawn de um personagem para o
+ponto especificado.
+@charbaselvl <#> = Muda o nível de base de um personagem de acordo
+com o número especificado.
+@charjlvl <#> = Muda o nível de classe de um personagem de
+acordo com o número especificado.
+@charjob/@charjobchange = Muda a Profissão do personagem.
+@charzeny = Dá/Retira zenys de um personagem.
+@charstpoint = Dá/Retira pontos de status para um personagem.
+@charskpoint = Dá/Retira pontos de skill para um personagem.
+@charskreset = Reseta skills de um personagem.
+@charstreset = Reseta status de um personagem.
+@charreset = Reseta status E skills de um personagem.
+@charquestskill <#> = Dá ao personagem a quest skill especificada.
+@charlostskill <#> = Retira do personagem a quest skill espedificada.
+@chardelitem = Remove itens especificados de um
+personagem.
+@chardisguise = Transforma um personagem no mostro
+espedificado.
+@charundisguise = Cancela transformação de um personagem.
+@charchangesex = Muda o sexo de um personagem
+(todos os personagens da conta serão afetados).
+@block = Bloqueia uma conta.
+@unblock = Desbloqueia uma conta.
+@ban = Bane temporariamente uma conta.
+Time usage: adjustement
+(+/- value) and element
+(y/a, m, d/j, h, mn, s)
+Exemplo: @ban +1m-2mn1s-6y Fulano
+
+@unban = Desbane uma conta.
+@kick = Kicka um personagem do servidor.
+@kickall = Kicka todos os personagens do servidor.
+@mapexit = Kicka todos os personagens e fecha o map server.
+@doom = Mata todos os personagens não GM do server.
+@doommap = Mata todos os personagens não GM do mapa.
+@raise = Revive todos os personagens do server.
+@raisemap = Revive todos os personagens do mapa.
+
+O gm pode fazwer ate o dia escurecer ou amanhecer ^^
+com os comandos @day e @night
+
+para os Gms mais sociaveis com e-mail divulgado são ultilizado esses comandos
+e principalmente para aqueles que oferecem suporte :
+@checkmail = Checa a quantidade de emails.
+@listmail = Lista todas as mensagens.
+@listnewmail = Lista as novas mensagens.
+@readmail <#> = Lê as mensagens.
+@deletemail <#> = Deleta as mensagens.
+@sendmail = Manda uma mensagem para outro personagem.
+(Use aspas se o personagem tiver espaços no nick)
+@sendprioritymail = Manda um email urgente para outro personagem.
+
+Use * como nome para mandar a mensagem para todos os jogadores.
+
+Agora chega o livro de cabeceira de todo o grupo que ira trabalhar ao lado dos staff (aqueles q estaum sendo recrutados)
+
+COMANDOS DE ADMINSTRAÇÂO DO SERVER:
+@reloaditemdb = Reload database de item
+@reloadmobdb = Reload database de monstro
+@reloadskilldb = Reload database de skills
+@reloadscript = Reload todos Scripts
+@reloadgmdb = Reload level de GM
+@enablenpc = Abilitar um NPC
+@disablenpc = Desabilitar um NPC
+
+@gat = Para depuração
+@packet = Para depuração (packet variedade)
+
+@GM = it becomes GM!
+@email = para escolher seu E-Mail.
+@refreshonline = Rechecks to make sure online column is correct (Apenas SQL)
