@@ -1,12 +1,55 @@
-./configure && make clean && make server
+// Client download
+https://drive.google.com/file/d/1t6sdnWi27Kais6_NEYJB0rAGxx14VJj9/view?usp=sharing
 
-sudo chmod a+x login-server && chmod a+x char-server && chmod a+x map-server && chmod a+x web-server
-
-
+// Build with specific packetver + Use 16 threads during compilation
 ./configure --enable-packetver=20200401
 make clean
 make server -j 16
 
+----
+Patching ragexe.exe client 
+
+// Original use (english)
+DATA.INI
+System/itemInfo_EN.lua
+100
+System\achievement_list_EN.lub
+System/Towninfo_EN.lub
+System\PetEvolutionCln_true_E.lub
+System/tipbox_EN.lub
+System/CheckAttendance_EN.lub
+System\OngoingQuestInfoList_True_EN
+System\RecommendedQuestInfoList_True_EN
+System\PrivateAirplane_T_EN.lub
+System\mapInfo_true_EN.lub
+Using wrong servertype in clientinfo/sclientinfo xml. Please change servertype to correct one.
+
+// Not working (Portuguese-BR)
+DATA.INI
+System/itemInfo.lua
+100
+System\achievement_list.lua
+System/Towninfo.lua
+System\petevolutioncln.lua
+System/tipbox_EN.lub
+System/CheckAttendance.lua
+System\OngoingQuestInfoList_True
+System\RecommendedQuestInfoList_True
+System\PrivateAirplane_true.lua
+System\mapInfo.lua
+Using wrong servertype in clientinfo/sclientinfo xml. Please change servertype to correct one.
+
+
+// ---- Useful commands ----
+
+
+// Build - generic commands
+./configure && make clean && make server
+
+// chmod to avoid problems (use once)
+sudo chmod a+x login-server && chmod a+x char-server && chmod a+x map-server && chmod a+x web-server
+
+// Commands to create database (use once)
 CREATE DATABASE ragnarok;
 CREATE DATABASE logs;
 CREATE USER 'ragnarok'@'localhost' IDENTIFIED BY 'ragnarok';
@@ -15,19 +58,16 @@ GRANT SELECT,INSERT,UPDATE,DELETE ON ragnarok.* TO 'ragnarok'@'localhost';
 GRANT SELECT,INSERT,UPDATE,DELETE ON logs.* TO 'ragnarok'@'localhost';
 
 
-
 // See firewall status
 sudo ufw status verbose
 
-//How do I open tcp port # 22?
+// How do I open tcp port # 22?
 sudo ufw allow 22/tcp
 
-
-How do I open tcp port # 80 and 443?
-The service specific syntax is as follows to open http and https service ports:
+// How do I open tcp port # 80 and 443?
+// The service specific syntax is as follows to open http and https service ports:
 sudo ufw allow http
 sudo ufw allow https
-
 OR
 sudo ufw allow 80/tcp
 sudo ufw allow 443/tcp
