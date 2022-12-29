@@ -6,6 +6,7 @@ https://drive.google.com/file/d/1t6sdnWi27Kais6_NEYJB0rAGxx14VJj9/view?usp=shari
 make clean
 make server -j 16
 
+test
 ----
 Patching ragexe.exe client 
 
